@@ -1,0 +1,174 @@
+/* shared style  */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-color {
+    color: white;
+}
+
+.background-color1 {
+    background-color: #31304D;
+}
+
+.item:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+
+/* nav related style */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.header-img {
+    width: 120px;
+}
+
+.source-link {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.source-link a {
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.nav-links {
+    font-size: 25px;
+}
+/* banner related design  */
+.banner {
+    display: flex;
+    gap: 150px;
+    padding: 150px;
+    align-items: center;
+    background-image: url('images/background.png'),linear-gradient(45deg, #000, #272424);
+}
+
+.banner-title {
+    font-size: 55px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.banner-description {
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.btn-primary {
+    padding: 15px;
+    color: white;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 7px;
+    background-color: #F05941;
+}
+/* section part design */
+.about-section{
+    padding: 120px 70px;
+    margin-left: 40px;
+}
+.section-title{
+    margin-bottom: 70px;
+    font-size: 55px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.section-title{
+    text-align: center;
+}
+.about-img img{
+    width: 300px;
+}
+.about-me-title{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.about-me-description{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.btn-contact{
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* our service section design  */
+.services-section{
+     background-image: url('images/background.png'),linear-gradient(45deg, #000, #272424); 
+     padding-bottom: 80px;
+}
+.service-container{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.service-title{
+    padding: 60px 0px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.box{
+    width: 230px;
+    height: 320px;
+    box-shadow: 4px 4px 25px grey;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+.icon{
+    width: 70px;
+}
+.box-title{
+    margin-bottom: 15px;
+}
+.box-paragraph{
+    margin-bottom: 20px;
+}
+
+.End-part{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px 80px;
+    background-color: #0c0c0cf4;
+}
+.end-part-image{
+    width: 160px;
+}
+.end-part-info{
+    color: white;
+    padding-top: 15px;
+}
+.end-part-title{
+    color: white;
+}
+hr{
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: #0c0c0cf4;
+    color: white;
+    padding-bottom: 15px;
+    
+}
